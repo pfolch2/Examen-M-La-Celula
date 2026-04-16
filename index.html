@@ -233,7 +233,7 @@
   <div class="wrap">
     <header>
       <div class="titleRow">
-        <h1 id="titleText">EXAMEN DE LA ANTIGUA GRECIA Y LAS OLIMPIADAS</h1>
+        <h1 id="titleText">EXAMEN DE LA CÉLULA</h1>
         <div class="smallBtns">
           <button class="btn mini" id="titlePlay" type="button" aria-label="LEER TÍTULO NORMAL">▶</button>
           <button class="btn mini" id="titleTurtle" type="button" aria-pressed="false" aria-label="LEER TÍTULO LENTO">🐢</button>
@@ -281,50 +281,50 @@
     // DATA (SOLO TU CONTENIDO)
     // -----------------------------
     const QUESTIONS = [
-      { id: 1,  q: "PREGUNTA 1. HACE MUCHO TIEMPO EXISTÍA…",
-        opts: { A:"GRECIA ANTIGUA", B:"INTERNET", C:"TELÉFONOS MÓVILES" }, correct: "A"
+      { id: 1,  q: "¿CÚAL ES UNA FUNCIÓN VITAL DE UN SER VIVO?",
+        opts: { A:"NUTRICIÓN", B:"DORMIR", C:"COMER" }, correct: "A"
       },
-      { id: 2,  q: "PREGUNTA 2. LAS PERSONAS QUE PENSABAN MUCHO Y PREGUNTABAN COSAS A LA GENTE SE LLAMABAN…",
-        opts: { A:"REYES", B:"ATLETAS", C:"FILÓSOFOS" }, correct: "C"
+      { id: 2,  q: "¿QUÉ ES UNA BACTERIA?",
+        opts: { A:"MINERAL", B:"SER PLURICELULAR", C:"SER UNICELULAR" }, correct: "C"
       },
-      { id: 3,  q: "PREGUNTA 3. LOS FILÓSOFOS PREGUNTABAN SOBRE…",
-        opts: { A:"CÓMO GANAR CARRERAS", B:"QUÉ ES LA VIDA, LO JUSTO Y LA VERDAD", C:"CÓMO HACER DINERO" }, correct: "B"
+      { id: 3,  q: "¿QUÉ ES LA CÉLULA?",
+        opts: { A:"UNA ROCA", B:"LA PARTE MÁS PEQUEÑA DE UN SER VIVO", C:"UN ÓRGANO" }, correct: "B"
       },
-      { id: 4,  q: "PREGUNTA 4. FILÓSOFOS SIGNIFICA…",
-        opts: { A:"AMIGOS DE LA GUERRA", B:"AMIGOS DEL DINERO", C:"AMIGOS DE LA SABIDURÍA" }, correct: "C"
+      { id: 4,  q: "¿QUÉ HACE UN SER VIVO CUANDO SE RELACIONA?",
+        opts: { A:"SE ALIMENTA", B:"NOTA LO QUE PASA Y RESPONDE", C:"TIENE HIJOS" }, correct: "B"
       },
-      { id: 5,  q: "PREGUNTA 5. DEMOCRACIA SIGNIFICA…",
-        opts: { A:"EL REY DECIDE", B:"EL PUEBLO DECIDE", C:"LOS SOLDADOS DECIDEN" }, correct: "B"
+      { id: 5,  q: "¿QUÉ ES UN ELEFANTE?",
+        opts: { A:"SER UNICELULAR", B:"SER PLURICELULAR", C:"NO ES UN SER VIVO" }, correct: "B"
       },
-      { id: 6,  q: "PREGUNTA 6. EN LA DEMOCRACIA…",
-        opts: { A:"SE HABLABA Y SE VOTABA Y SE ELEGÍAN RESPONSABLES", B:"DECIDÍA SOLO UN REY", C:"NO SE VOTABA NUNCA" }, correct: "A"
+      { id: 6,  q: "¿DE QUÉ ESTAN HECHOS TODOS LOS SERES VIVOS?",
+        opts: { A:"CÉLULAS", B:"AGUA", C:"CLOROPLASTOS" }, correct: "A"
       },
-      { id: 7,  q: "PREGUNTA 7. EN GRECIA CONTABAN HISTORIAS EN…",
-        opts: { A:"UN MERCADO", B:"UN TEATRO", C:"UNA GUERRA" }, correct: "B"
+      { id: 7,  q: "¿QUÉ ES UNA SILLA?",
+        opts: { A:"UN SER VIVO", B:"UNA CÉLULA", C:"NO ES UN SER VIVO" }, correct: "C"
       },
-      { id: 8,  q: "PREGUNTA 8. EN EL TEATRO HABÍA…",
-        opts: { A:"ACTORES, MÁSCARAS Y PÚBLICO", B:"SOLO REYES", C:"SOLO SOLDADOS" }, correct: "A"
+      { id: 8,  q: "¿QUÉ FUNCIÓN VITAL HACE TENER HIJOS?",
+        opts: { A:"REPRODUCCIÓN", B:"NUTRICIÓN", C:"RELACIÓN" }, correct: "A"
       },
-      { id: 9,  q: "PREGUNTA 9. EN GRECIA CONSTRUÍAN…",
-        opts: { A:"TEMPLOS Y EDIFICIOS MUY BONITOS", B:"RASCACIELOS", C:"AEROPUERTOS" }, correct: "A"
+      { id: 9,  q: "¿QUÉ SÓN LOS SERES HUMANOS?",
+        opts: { A:"SERES PLURICELULARES", B:"SERES UNICELULARES", C:"VEGETALES" }, correct: "A"
       },
-      { id: 10, q: "PREGUNTA 10. HOY, MUCHOS EDIFICIOS USAN IDEAS PARECIDAS A GRECIA COMO…",
-        opts: { A:"COLUMNAS, ESCALERAS Y FACHADAS", B:"NEÓN Y PLÁSTICO", C:"ROBOTS Y DRONES" }, correct: "A"
+      { id: 10, q: "¿QUÉ ES UN COCHE?",
+        opts: { A:"UN SER VIVO", B:"NO ES UN SER VIVO", C:"UNA PLANTA" }, correct: "B"
       },
-      { id: 11, q: "PREGUNTA 11. ¿QUÉ ERAN LAS OLIMPIADAS?",
-        opts: { A:"GUERRAS", B:"PELEAS", C:"JUEGOS DEPORTIVOS" }, correct: "C"
+      { id: 11, q: "¿QUÉ ES UNA BALLENA?",
+        opts: { A:"NO ES UN SER VIVO", B:"SER UNICELULAR", C:"SER PLURICELULAR" }, correct: "C"
       },
-      { id: 12, q: "PREGUNTA 12. LAS OLIMPIADAS SE HACÍAN SIEMPRE EN EL MISMO LUGAR. ESE LUGAR SE LLAMABA…",
-        opts: { A:"ATENAS", B:"OLIMPIA", C:"ROMA" }, correct: "B"
+      { id: 12, q: "¿QUÉ DIFERENCIA HAY ENTRE SERES UNICELULARES Y PLURICELULARES?",
+        opts: { A:"QUE LOS PLURICELULARES TIENE UNA CÉLULAR Y LOS UNICELULARES MUCHAS CÉLULAS", B:"QUE LOS UNICELULARES TIENEN UNA CÉLULA Y LOS PLURICELULARES MUCHAS CÉLULAS", C:"SON LO MISMO" }, correct: "B"
       },
-      { id: 13, q: "PREGUNTA 13. CADA ATLETA COMPETÍA…",
-        opts: { A:"EN EQUIPO", B:"SOLO", C:"CON SU FAMILIA" }, correct: "B"
+      { id: 13, q: "¿PARA QUÉ ES IMPORTANTE LA CÉLULA?",
+        opts: { A:"PARA GANAR DINERO", B:"PARA DAR VIDA A LOS SERES VIVOS", C:"PARA DORMIR" }, correct: "B"
       },
-      { id: 14, q: "PREGUNTA 14. EL GANADOR NO RECIBÍA DINERO. RECIBÍA…",
-        opts: { A:"UNA MEDALLA", B:"UNA CORONA DE HOJAS", C:"UN TROFEO DE ORO" }, correct: "B"
+      { id: 14, q: "¿QUÉ FUNCIÓN TIENE LA MEMBRANA DE LA CÉLULA?",
+        opts: { A:"HACER RESPIRAR LA CÉLULA", B:"ENVOLVER LA CÉLULA", C:"NO TIENE FUNCIÓN" }, correct: "B"
       },
-      { id: 15, q: "PREGUNTA 15. EL GANADOR ERA MUY…",
-        opts: { A:"CASTIGADO", B:"RESPETADO", C:"OLVIDADO" }, correct: "B"
+      { id: 15, q: "¿QUÉ ES EL MATERIAL GENÉTICO DE LA CÉLULA?",
+        opts: { A:"AYUDA A LA CELULA A RESPIRAR", B:"EL LÍQUIDO INTERIOR DE LA CÉLULA", C:"CONTIENE LA INFORMACIÓN DE LA CÉLULA" }, correct: "C"
       }
     ];
 
